@@ -1,0 +1,166 @@
+<?php
+
+$title =" Хиромассаж  ";
+
+$urla= $_SERVER['PHP_SELF'];
+ $ids= preg_replace('|[^0-9]*|','',$urla);
+$next=$ids+1;
+$prev=$ids-1;
+ if ($ids==109){
+$next=10;
+}elseif ($ids==10){
+$prev=109;};
+ ?>
+<!DOCTYPE HTML>
+<!--
+	Landed by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title><?php echo $title ?></title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body>
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<header id="header">
+					<h1 id="logo"><a href="../index.html">Главная</a></h1>
+					<nav id="nav">
+						<ul>
+							
+							
+									<li><a href="../category/1.html">Лебечный</a></li>
+								<li><a href="../category/2.html">Рефлексотерапия</a></li>
+								<li><a href="../category/3.html">Масляный</a></li>
+								<li><a href="../category/4.html">Шоколадный</a></li>
+								<li><a href="../category/5.html">Медовый</a></li>
+								<li><a href="../category/6.html">Косметический</a></li>
+								<li><a href="../category/7.html">Китайский</a></li>
+								<li><a href="../category/8.html">Хиромассаж</a></li>
+								<li><a href="../category/9.html">Японский</a></li>
+								<li><a href="../category/10.html">Самомассаж</a></li>
+								</ul>
+							</li>
+							
+						</ul>
+					</nav>
+				</header>
+
+			<!-- Main -->
+				<div id="main" class="wrapper style1">
+					<div class="container">
+						<header class="major">
+							<h3><?php echo $title ?></h3>
+							
+						</header>
+
+						<!-- Content -->
+							<section id="content">
+								<a href="#" class="image fit"><img src="images/<?php echo $ids ?>.jpg" alt="" /></a>
+							
+								<p>
+								
+								
+								Хиромассаж
+
+Институт мануальной терапии INMASTER сегодня достаточно популярен в Европе и Америке. Пост первенство заслуженно занимает Энрике Кастеллс Гарсия — гениальный массажист, автор огромного количества изданий и нового направлении -  хиромассажа.
+<br></br>
+Концепция хиромассажа заключается в комбинации наиболее эффективных приемов европейских, восточных систем массажа, американской хиропрактики и кинезиологии. Она позволяет как можно максимально воздействовать на нервную систему, оказывая рефлекторное влияние на функции человеческого организма.
+<br></br>
+Великое разнообразие приемов, оригинальные связующие элементы позволяют выделить школу INMASTER среди прочих.
+
+В нашем клинике успешно  используется метод  психобиоструктурального массажа.
+
+СПА (SPA) массаж
+
+Техника имеет особое значение в  SPA-технологиях, решая комплексные задачи физииологического и эстетического характеров. К примеру, профилактические работы над здоровьем, повышение противостояния окружающей среды и прочее.
+<br></br>
+На основании трех основных систем осуществляется методика :
+
+Психо* - психоэмоциональная. Нервно-психический, работающий при стрессовых ситуациях Био* - биохимическая. Нормализуется равновесие между микроэлементами в организме человека, происходит климатическая адаптация. Структураль* - структурная. Обработка глубочайших слоев ткани: грануляционная, хрящевая, остеоблатическая.
+
+Достигается глубокое анти-стрессовое действие за счет комплексного воздействия систематизированной методики, а именно:
+<br></br>
+исчезают мимические морщины; снимается мышечная спатика; выводится лишняя жидкость; восстанавливается упругость тканей; производится оздоровление тела; необходимо при борьбе со стрессами; реабилитирует в следствии длительных заболеваний, пластических операций; борется с характерными возрастными изменениями.
+<br></br>
+Хиромасаж отличается уникальной незаменимой методикой при уходе за кожей лица. Решаются различной тыжести проблемы: от восстановления овальности лица до купероза.  Возможно достижение высоких результатов благодаря основным и дополнительным приемам, грамотной постановке диагноза пациента, учитывающего не только состояние кожного покрова, но и мышечную, сосудистую и суставную системы. 
+								
+								
+								
+								
+								
+								
+								
+								</p>
+								
+							</section>
+							
+							<section class="wrapper style1 container special">
+						<div class="row">
+							<div class="6u 12u(narrower)">
+
+								<section>
+									
+								<footer>
+										<ul class="buttons">
+											<a href="<?php echo $prev ?>.html" class="button small">Предыдущая</a>
+										</ul>
+									</footer>
+								</section>
+
+							</div>
+							
+							<div class="6u 12u(narrower)">
+
+								<section>
+								
+									<footer>
+										<ul class="buttons">
+											<a href="<?php echo $next ?>.html" class="button small">Следующая</a>
+										</ul>
+									</footer>
+								</section>
+
+							</div>
+						</div>
+					</section>
+
+					</div>
+				</div>
+<!-- Footer -->
+			<footer id="footer">
+			<div class="12u 12u(narrower)">
+
+							
+								&nbsp;<a href="../category/1.html">Лебечный</a>&nbsp;
+								&nbsp;<a href="../category/2.html">Рефлексотерапия</a>&nbsp;
+								&nbsp;<a href="../category/3.html">Масляный</a>&nbsp;
+								&nbsp;<a href="../category/4.html">Шоколадный</a>&nbsp;
+								&nbsp;<a href="../category/5.html">Медовый</a>&nbsp;
+								&nbsp;<a href="../category/6.html">Косметический</a>&nbsp;
+								&nbsp;<a href="../category/7.html">Китайский</a>&nbsp;
+								&nbsp;<a href="../category/8.html">Хиромассаж</a>&nbsp;
+								&nbsp;<a href="../category/9.html">Японский</a>&nbsp;
+						&nbsp;<a href="../category/10.html">Самомассаж</a>&nbsp;
+								
+							
+						
+					
+					
+</div>
+				<ul class="copyright">
+					
+				</ul>
+
+			</footer>
+
+	<script src="assets/js/jquery.min.js"></script><script src="assets/js/jquery.scrolly.min.js"></script><script src="assets/js/jquery.dropotron.min.js"></script><script src="assets/js/jquery.scrollex.min.js"></script><script src="assets/js/skel.min.js"></script><script src="assets/js/util.js"></script><script src="assets/js/main.js"></script></body>
+</html>
