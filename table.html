@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<html>
+    <head>
+	header('Content-Type: text/html; charset=utf-8');
+        <title></title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		
+		<!-- FontAwesome - http://fortawesome.github.io/Font-Awesome/ -->
+        <link rel="stylesheet" href="/css/font-awesome.min.css" />
+
+		<!-- jQueryMobileCSS - original without styling -->
+		<link rel="stylesheet" href="/css/jquery.mobile-1.4.5.min.css" />
+
+		<!-- nativeDroid core CSS -->
+        <link rel="stylesheet" href="/css/jquerymobile.nativedroid.css" />
+
+		<!-- nativeDroid: Light/Dark -->
+        <link rel="stylesheet" href="/css/jquerymobile.nativedroid.dark.css"  id='jQMnDTheme' />
+
+		<!-- nativeDroid: Color Schemes -->
+        <link rel="stylesheet" href="/css/jquerymobile.nativedroid.color.green.css" id='jQMnDColor' />
+
+		<!-- jQuery / jQueryMobile Scripts -->
+		
+		<script src="/js/jquery-1.9.1.min.js"></script>
+        <script src="/js/jquery.mobile-1.4.5.min.js"></script>
+        
+    </head>
+    <body>
+        
+    <div data-role="page" data-theme='b'>
+
+	<div data-role="panel" data-display="push" id="mypanel" data-theme="b">
+        <ul data-role="listview">
+            <li>Меню</li>
+            <li data-icon='false'><a href="/index.html"><i class='lIcon fa fa-heart'></i>Проверить совместимость</a></li>
+            <li data-icon='false'><a href="/table.html"><i class='lIcon fa fa-calendar'></i>Таблица совместимости</a></li>
+            <li data-icon='false'><a href="/about.html"><i class='lIcon fa fa-info'></i>О нас</a></li>
+            <li data-icon='false'><a href="#"><i class='lIcon fa fa-fire'></i>Make a fire</a></li>
+            <li data-icon='false'><a href="#"><i class='lIcon fa fa-bullhorn'></i>Shout it loud</a></li>
+            <li data-icon='false'><a href="#"><i class='lIcon fa fa-heart'></i>Meet friends</a></li>
+            <li data-icon='false'><a href="#"><i class='lIcon fa fa-trophy'></i>Win a Trophy</a></li>
+        </ul>
+    </div>
+    
+
+	
+         <div data-role="header" data-position="fixed" data-tap-toggle="false" data-theme='b'>
+            <a href="#mypanel" data-role='button' data-inline='true'><i class='lIcon fa fa-bars'></i></a>
+	            
+
+				<h1>Panel Trigger</h1>
+           
+        </div>
+       
+        
+        <div data-role="content">   
+		<div width="100%">
+	      
+	        <ul data-nativedroid-plugin='cards'>
+			
+
+				
+							
+				
+				<li data-cards-type='weather'>
+					
+					<p>
+					
+					
+					
+					
+					
+					
+					</p>
+				</li>
+			</ul>
+				 </div>
+	            
+				
+			
+
+    </div>
+        <script src="/js/nativedroid.script.js"></script>
+    </body>
+</html>

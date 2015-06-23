@@ -1,0 +1,187 @@
+<!DOCTYPE HTML>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<html>
+    <head>
+	
+        <title></title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		
+		<!-- FontAwesome - http://fortawesome.github.io/Font-Awesome/ -->
+        <link rel="stylesheet" href="/css/font-awesome.min.css" />
+
+		<!-- jQueryMobileCSS - original without styling -->
+		<link rel="stylesheet" href="/css/jquery.mobile-1.4.5.min.css" />
+
+		<!-- nativeDroid core CSS -->
+        <link rel="stylesheet" href="/css/jquerymobile.nativedroid.css" />
+
+		<!-- nativeDroid: Light/Dark -->
+        <link rel="stylesheet" href="/css/jquerymobile.nativedroid.dark.css"  id='jQMnDTheme' />
+
+		<!-- nativeDroid: Color Schemes -->
+        <link rel="stylesheet" href="/css/jquerymobile.nativedroid.color.green.css" id='jQMnDColor' />
+
+		<!-- jQuery / jQueryMobile Scripts -->
+		
+		<script src="/js/jquery-1.9.1.min.js"></script>
+        <script src="/js/jquery.mobile-1.4.5.min.js"></script>
+        <script type="text/javascript">
+		
+		
+		
+		</script>
+    </head>
+    <body>
+        
+    <div data-role="page" data-theme='b'>
+
+	<div data-role="panel" data-display="push" id="mypanel" data-theme="b">
+        <ul data-role="listview">
+            <li>Меню</li>
+            <li data-icon='false'><a href="/index.html"><i class='lIcon fa fa-heart'></i>Проверить совместимость</a></li>
+            <li data-icon='false'><a href="/table.html"><i class='lIcon fa fa-calendar'></i>Таблица совместимости</a></li>
+            <li data-icon='false'><a href="/about.html"><i class='lIcon fa fa-info'></i>О нас</a></li>
+        </ul>
+    </div>
+    
+
+	
+         <div data-role="header" data-position="" data-tap-toggle="false" data-theme='b'>
+            <a href="#mypanel" data-role='button' data-inline='true'><i class='lIcon fa fa-bars'></i></a>
+	            
+				
+				
+
+				<h1>       Женщина Овен и Мужчина Овен     </h1>
+				
+           
+        </div>
+       
+        
+        <div data-role="content">   
+		<div width="100%">
+	      
+	        <ul data-nativedroid-plugin='cards'>
+			
+
+				
+							
+				
+				<li data-cards-type='weather'>
+					
+					<p>
+					<div >
+					
+					 </div>
+						<script type="text/javascript">
+				
+				
+				
+					var mans = document.getElementById("man"); // Получаем наш список
+var man = mans.options[mans.selectedIndex].value; // Получаем значение выделенного элемента (в нашем случае fruit2).
+
+					var womans = document.getElementById("woman"); // Получаем наш список
+var woman = womans.options[womans.selectedIndex].value; // Получаем значение выделенного элемента (в нашем случае fruit2).
+					
+					var link = '/article/'+man+'/'+woman+'.html';
+				
+			
+					
+   </script>
+					
+					
+					
+  <form>
+			
+					<center><h1>Мужчина<h1>
+					  <select name="mans" id="man" data-native-menu="true">
+					        <option value="0">Выбрать</option>
+                            <option value="1">Овен</option>
+                            <option value="2">Телец</option>
+                            <option value="3">Близнецы</option>
+                            <option value="4">Рак</option>
+                            <option value="5">Лев</option>
+							<option value="6">Дева</option>
+                            <option value="7">Весы</option>
+                            <option value="8">Скорпион</option>
+                            <option value="9">Стрелец</option>
+                            <option value="10">Козерог</option>
+							 <option value="11">Водолей</option>
+                            <option value="12">Рыбы</option>
+                        </select>
+						<center><img src="/images/plus.png" 
+ width="5%" height="5%" ></center>
+						<h1>Женщина<h1>
+						<select name="womans" id="woman" data-native-menu="true">
+						    <option value="0">Выбрать</option>
+                            <option value="1">Овен</option>
+                            <option value="2">Телец</option>
+                            <option value="3">Близнецы</option>
+                            <option value="4">Рак</option>
+                            <option value="5">Лев</option>
+							<option value="6">Дева</option>
+                            <option value="7">Весы</option>
+                            <option value="8">Скорпион</option>
+                            <option value="9">Стрелец</option>
+                            <option value="10">Козерог</option>
+							 <option value="11">Водолей</option>
+                            <option value="12">Рыбы</option>
+                        </select>
+							<button type="submit" data-inline='true'name=reset value="reset" onClick='resetForm(this.form)'><i class='lIcon fa fa-check'></i>Старт</button>
+							
+						
+					</center>
+						</form>
+						
+						
+					
+						
+						
+						
+						
+						
+						
+						
+  <script type="text/javascript">
+ 
+if ( man == '0'){
+				link = undefined;
+				if(woman == '0'){
+				
+				link = undefined;
+              				
+					};
+					};
+  
+  
+  if(woman == '0'){
+				
+				link = undefined;
+              				
+					};
+  
+   if (typeof link != 'undefined'){
+				location.href = link;		
+					};
+/////typeof link != 'undefined'
+   </script>
+						
+						
+						
+					
+			
+					
+					
+					</p>
+				</li>
+			</ul>
+				 </div>
+	            
+				
+			
+
+    </div>
+	
+        <script src="/js/nativedroid.script.js"></script>
+    </body>
+</html>
